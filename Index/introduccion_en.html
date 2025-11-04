@@ -1,0 +1,80 @@
+<html>
+<head><title>Introduccion</title></head>
+<link rel="stylesheet" type="text/css" href="otro.css">
+</head>
+<body>
+    <section class="fondo-animado">
+  <header class="encabezado">
+    <h1><font size="14 ">Who are we?</font></h1>
+  </header>
+<nav>
+  <ul class="menu">
+    <li><a href="Inicio_en.html">Home</a></li> 
+        <li>
+        <a href="#">Project Outline</a>
+      <ul class="submenu">
+        <ul>
+          <li><a href="Mision_en.html">Mascot</a></li>
+          <li><a href="Vision_en.html">Graphics</a></li> 
+      </li>
+  </ul>
+</nav>
+<br>
+<br>
+<h1></h1><font size="05 ">We are two young women committed to the mental health of teenagers. Our purpose is to raise awareness about depression, break stigmas, and provide a safe support space where every young person can express themselves without fear.
+We believe in the importance of empathy, respect, and active listening; that why we work on projects that promote prevention and emotional well-being.
+</h1>
+  </h2>
+  </div>
+<br>
+<br>
+<div class="botones">
+  <button class="Introduccion" onclick="mostrarImagen(1)">Introduction</button>
+  <button class="Mision" onclick="mostrarImagen(2)">Mission</button>
+  <button class="Vision" onclick="mostrarImagen(3)">Vission</button>
+  <button class="Problematica" onclick="mostrarImagen(4)">Problem</button>
+  <button class="Objetivogeneral" onclick="mostrarImagen(5)">General Objective</button>
+  <button class="objetivoespecifico" onclick="mostrarImagen(6)">Specific Objectives</button>
+</div>
+<div class="imagenes">
+  <img id="img1" src="./imagenes/Introduction.png" alt="Introduccion" style="display:none;">
+  <img id="img2" src="./imagenes/Mission.png" alt="Mision" style="display:none;">
+  <img id="img3" src="./imagenes/new.png" alt="Vision" style="display:none;">
+  <img id="img4" src="./imagenes/problem.jpg" alt="Problematica" style="display:none;">
+  <img id="img5" src="./imagenes/ObjectiveG.png" alt="Objetivo general" style="display:none;">
+  <img id="img6" src="./imagenes/ObjectivesP.png" alt="Objetivos específicos" style="display:none;">
+</div>
+
+  <script >
+    function mostrarImagen(num) {
+  
+  document.getElementById("img1").style.display = "none";
+  document.getElementById("img2").style.display = "none";
+  document.getElementById("img3").style.display = "none";
+  document.getElementById("img4").style.display = "none";
+  document.getElementById("img5").style.display = "none";
+  document.getElementById("img6").style.display = "none";
+
+  
+  document.getElementById("img" + num).style.display = "block";
+}
+
+  </script>
+</script>
+<a href="introduccion.html" class="boton-ingles">Spanish</a>
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+<footer>
+	<div class="footer-content">
+        <div class="social-icons">
+            <a href="https://www.instagram.com/neuro_bienestar2?igsh=N3BpOGN6azZpOGE5" target="_blank">
+              <img src="./imagenes/insta.jpg" alt="Instagram"></a>
+            <a href="https://www.facebook.com/profile.php?id=61582923707268" target="_blank">
+              <img src="./imagenes/face.jpg" alt="Facebook">
+            </a>
+        </div>
+        <p><strong>&copy; Taking care of your mind is as important as taking care of your body; you deserve well-being in both.</strong></p>
+    </div>
+</footer>
+</body>
+</section>
+</html>
